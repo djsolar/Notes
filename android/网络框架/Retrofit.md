@@ -105,9 +105,11 @@ Simple XML: com.squareup.retrofit:converter-simplexml
 ```
 ## URL定义方式
 Retrofit 2.0使用了新的URL定义方式。Base URL与@Url 不是简单的组合在一起而是和\<a href="..."\>的处理方式一致。用下面的几个例子阐明。
+
 ![](../img/url_1.png)
 ![](../img/url_2.png)
 ![](../img/url_3.png)
+
 第二种比较符合我们的习惯，一般建议BaseUrl带'/', @Url不要带'/'
 
 比如
